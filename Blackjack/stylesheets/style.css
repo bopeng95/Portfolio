@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Raleway:300,400');
+
+* {
+	margin:0;
+	padding:0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+	background-image: url(https://www.sevenfeathers.com/wp-content/uploads/2013/11/Seven-Feathers-Casino-124.png);
+	background-repeat: no-repeat;
+	background-position:fixed;
+    background-size: cover;
+}
+
+.alpha-font {
+	font-family:'Raleway', Sans-Serif;
+}
+
+.beta-font {
+	font-family:'Open Sans', Sans-Serif;
+}
+
+.start {
+	background-color: white;
+	margin:250px auto 0 auto;
+	width:350px;
+	text-align: center;
+	font-size:20px;
+	padding:15px;
+	box-shadow: 1px 1px 1px 1px #888888;
+}
+
+.gone {
+	display: none;
+}
+
+.playBtn {
+	padding:3px;
+	font-size:14px;
+}
+
+.btn {
+	padding:5px 15px;
+	font-size:22px;
+	margin:20px 8px;
+	background-color: #DADADA;
+}
+
+input {
+	font-size:15px;
+}
+
+.hitStand {
+	font-size:20px;
+}
+
+.scoreBox {
+	display:inline-block;
+	padding: 10px 20px;
+	border:1px solid lightgray;
+	border-radius: 10px;
+	margin:18px;
+	font-size:20px;
+	background-color: #74E4E9;
+}
+
+.facedown {
+	color: transparent !important;
+	background-image: url(https://i.pinimg.com/736x/c1/59/b4/c159b4738dae9c9d8d6417228024de8d--playing-card-design-card-card.jpg);
+    background-size: contain;
+}
+
+.card {
+	display: inline-block;
+	background-color: white;
+	text-align: left;
+	border:1px solid lightgray;
+	border-radius:10px;
+	height:200px;
+	width:150px;
+	padding:10px;
+	margin:0 -25px;
+	font-size:22px;
+}
+
+.red {
+	color:red;
+}
+
+.black {
+	color:black;
+}
+
+.game {
+	margin:0 auto;
+	text-align:center;
+}
