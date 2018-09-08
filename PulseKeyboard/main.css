@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre|Raleway:300');
+
+* {
+	margin:0;
+	padding:0;
+}
+
+#main {
+	box-sizing: border-box;
+	position: relative;
+	height:100vh;
+	width:100vw;
+	overflow: hidden;
+}
+
+#title {
+	position: absolute;
+	Font-Family: 'Raleway', Sans-Serif;
+	font-size: 45px;
+	left:50%;
+	top:5%;
+	width: 100%;
+	text-align: center;
+	transform: translate(-50%,0);
+}
+
+.circle {
+	border:5px solid red;
+	border-radius: 50%;
+	height:5px;
+	width:5px;
+	transform: translate(-50%,-50%);
+}
+
+#keyboard {
+	visibility: hidden;
+}
+
+#text {
+	Font-Family: 'Frank Ruhl Libre', Sans-Serif;
+	position: absolute;
+	top:15%;
+	left:50%;
+	font-size: 25px;
+	min-width:70%;
+	min-height: 225px;
+	transform: translate(-50%,0);
+	border:none;
+	border-left:2px solid lightblue;
+	overflow:auto;
+	outline: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	padding:.5rem 1rem .5rem 1rem;
+}
+
+.row {
+	width: 76%;
+	display: flex;
+	flex-flow: row wrap;
+	position: absolute;
+	justify-content: space-around;
+}
+
+.rowZero {
+	top:50%;
+	left:9%;
+}
+
+.rowOne {
+	top:60%;
+	left:11%;
+}
+
+.rowTwo {
+	top:70%;
+	left:13%;
+}
+
+.rowThree {
+	top:80%;
+	left:15%;
+}
+
+.active {
+	background: lightblue;
+	color:white !important;
+}
+
+.scale {
+	-webkit-transform: scale(1.25);
+    -ms-transform: scale(1.25);   
+    -moz-transform: scale(1.25);
+    transform: scale(1.25);
+}
+
+.letter {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	font-size: 2rem;
+	border:1px solid lightblue;
+	color:lightblue;
+	border-radius:10px;
+	padding:.5rem;
+	min-width: 40px;
+ 	margin: 4px;
+ 	-webkit-transition: all 100ms ease-in;
+    -ms-transition: all 100ms ease-in; 
+    -moz-transition: all 100ms ease-in;
+    transition: all 100ms ease-in;
+}
+
+@media(min-width: 1144px) {
+	#keyboard {
+		visibility: visible;
+	}
+}
