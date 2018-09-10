@@ -1,5 +1,7 @@
 $(document).ready(function() {
 	let stablize = 35;
+	let keyPos = $('.rowZero').position();
+	$('#text').css({'min-height':(keyPos.top - 155) + 'px'});
 	$(document).on("keypress", function(e) {
 		let r = Math.floor(Math.random()*256);let g = Math.floor(Math.random()*256); let b = Math.floor(Math.random()*256);
 		let pos = 50;
