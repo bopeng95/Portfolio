@@ -43,7 +43,7 @@
 	left:50%;
 	font-size: 25px;
 	min-width:70%;
-	/*min-height: 225px;*/
+	min-height: 28%;
 	transform: translate(-50%,0);
 	border:none;
 	border-left:2px solid lightblue;
